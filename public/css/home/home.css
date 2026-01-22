@@ -1,0 +1,47 @@
+.main-header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 12px 30px;
+ background-color:  #3F6B8E;
+}
+
+.logo h1{
+ margin: 0;
+ color: #ffffff;
+ font-size:22px;
+}
+
+.nav menu{
+ margin-left: 20px;
+ text-decoration: black;
+ color: #ffffff;
+ font-size: 16px;
+}
+
+.btn-login{
+ padding: 8px 16px;
+ border: 1px solid #ffffff;
+ border-radius: 5px;
+ color: white;
+ text-decoration: none;
+ transition: 0.3s ease;
+}
+
+.btn-login:hover{
+    background-color: #ffffff;
+    color: #0f172a;
+}
+
+.btn-signup{
+ padding: 8px 16px;
+ border: 1px solid #ffffff;
+ border-radius: 5px;
+ color: white;
+ text-decoration: none;
+ transition: 0.3s ease;
+}
+.btn-signup:hover{
+   background-color: #ffffff;
+   color: #0f172a;
+}
