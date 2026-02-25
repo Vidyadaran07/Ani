@@ -1,0 +1,87 @@
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: #f0f2f5;
+   font-family: Arial, sans-serif;
+}
+
+.login-card{
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-card h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Input Group */
+.input-group{
+    margin-bottom:15px;
+}
+
+.input-group label{
+  display:block;
+  margin-bottom: 5px;
+  font-size:14px;
+}
+
+/* Inputs */
+.input-group input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+/* input focus effect */
+.input-group input:focus{
+    border-color: #007bff;
+}
+
+/* Remember section */
+.remember{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* logi btn */
+.login-btn{
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* button hover */
+.login-btn:hover{
+    background-color: #0056b3;
+}
+
+/* bottom text */
+.login-card{
+    text-align:center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.login-card{
+    text-align:center;
+    font-size:14px;
+    margin-top: 10px;
+}
